@@ -91,7 +91,7 @@ main {
     .bio-image {
         grid-area: bioimage;
         margin: auto;
-        border-radius: 50%;
+        border-radius: 10%;
         border: $secondary-color solid 3px
     }
 
@@ -131,6 +131,7 @@ main {
     img {
         width: 100%;
         border: 3px solid #fff;
+        min-height: 250px;
         
         &:hover {
             opacity: 0.5;
@@ -193,6 +194,7 @@ main {
         color: set-text-color($secondary-color);
     }
 }
+
 
 #main-footer {
     text-align: center;
